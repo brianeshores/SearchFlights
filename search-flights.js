@@ -26,7 +26,6 @@ flightSearch = (inputParams) => {
       flightArr.forEach(el => {
         console.log(`${el.flightNumber} ${el.flightOrigin} ==> ${el.flightDestination} (${el.departure} ${el.arrival}) ${el.fare} ${el.currency}`)
       })
-      
     }
   });
 
