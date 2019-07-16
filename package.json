@@ -1,0 +1,15 @@
+{
+  "name": "search-flights",
+  "version": "1.0.0",
+  "description": "Flight search",
+  "main": "search-flights.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Murray",
+  "license": "ISC",
+  "dependencies": {
+    "reques": "0.0.1-security",
+    "request": "^2.88.0"
+  }
+}
