@@ -8,7 +8,9 @@ flightSearch = (inputParams) => {
   const travelDate = (inputParams[2]);
   const numPassengers = (inputParams[3]);
   
-  request(`https://desktopapps.ryanair.com/v4/en-gb/availability?ADT=${numPassengers}&CHD=0&DateOut=${travelDate}&Destination=${destination}&FlexDaysOut=2&INF=0&IncludeConnectingFlights=true&Origin=${origin}&RoundTrip=false&TEEN=0&ToUs=AGREED&exists=false`, function (error, response, body) {
+  request(`https://desktopapps.ryanair.com/v4/en-gb/availability?ADT=${numPassengers}&CHD=0&
+          DateOut=${travelDate}&Destination=${destination}&FlexDaysOut=2&INF=0&IncludeConnectingFlights=true&
+          Origin=${origin}&RoundTrip=false&TEEN=0&ToUs=AGREED&exists=false`, function (error, response, body) {
     
     let data =  JSON.parse(body);
 
